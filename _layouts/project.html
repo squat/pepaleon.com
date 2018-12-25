@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<section class="intro">
+
+	<div class="wrap">
+
+		<h1>{{ page.title }}</h1>
+		<p>{{ page.subtitle }}</p>
+
+	</div>
+
+</section>
+
+<section class="single" style="margin-top: 0">
+        <style type="text/css">
+                #caption {
+                        bottom: 0%;
+                        color: #444;
+                        font-size: 16px;
+                        left: 1.5em;
+                        line-height: 3;
+                        opacity: 0;
+                        position: fixed;
+                        transition: all linear 0.2s;
+                        width: 100%;
+                        z-index: 1011;
+                }
+                #caption.visible {
+                        opacity: 1;
+                }
+        </style>
+
+	{{ page.content }}
+        <div id="caption"></div>
+
+</section>
