@@ -1,7 +1,7 @@
 ---
 title: 'Landscapes'
 subtitle: ''
-date: 2018-12-25 00:00:00
+date: 2021-10-25 00:00:00
 description: 
 featured_image: '/images/Landscapes-Great_Falls_40x48_2013.jpg'
 ---

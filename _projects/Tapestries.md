@@ -1,9 +1,9 @@
 ---
 title: 'Tapestries'
 subtitle: ''
-date: 2018-12-25 00:00:00
+date: 2021-10-25 00:00:00
 description: 
-featured_image: '/images/Tapestries-Net_54x60_2006.jpg'
+featured_image: '/images/Tapestries-Labyrinth.jpg'
 ---
 
 {% if page.description %}
@@ -11,5 +11,5 @@ featured_image: '/images/Tapestries-Net_54x60_2006.jpg'
 {% endif %}
 
 <div class="gallery" data-columns="2">
-    <img src="/images/Tapestries-Net_54x60_2006.jpg" alt="Net 54x60 2006"><img src="/images/Tapestries-Tapestry_I_64x54_2012.jpg" alt="Tapestry I 64x54 2012"><img src="/images/Tapestries-Tapestry_II_64x54_2012.jpg" alt="Tapestry II 64x54 2012">
+    <img src="/images/Tapestries-Labyrinth.jpg" alt="Labyrinth"><img src="/images/Tapestries-Net_152x137_2006.jpg" alt="Net 152x137 2006"><img src="/images/Tapestries-Tapestry_I_137x163_2012.jpg" alt="Tapestry I 137x163 2012"><img src="/images/Tapestries-Tapestry_II_137x163_2012.jpg" alt="Tapestry II 137x163 2012"><img src="/images/Tapestries-Tapestry_II.jpg" alt="Tapestry II"><img src="/images/Tapestries-Tapestry_I.jpg" alt="Tapestry I">
 </div>

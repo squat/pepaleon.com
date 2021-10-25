@@ -1,7 +1,7 @@
 ---
 title: 'More'
 subtitle: ''
-date: 2018-12-25 00:00:00
+date: 2021-10-25 00:00:00
 description: 
 featured_image: '/images/More-Sunrise_34x48_2018.jpg'
 ---
