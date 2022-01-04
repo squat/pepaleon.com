@@ -3,7 +3,7 @@ title: 'Roses'
 subtitle: ''
 date: 2022-01-04 00:00:00
 description: 
-featured_image: '/images/Roses-Bed_of_Roses_58x50_2010.jpg'
+featured_image: '/images/Roses-feature.jpg'
 ---
 
 {% if page.description %}

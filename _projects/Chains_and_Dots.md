@@ -1,7 +1,7 @@
 ---
 title: 'Chains and Dots'
 subtitle: ''
-date: 2021-10-25 00:00:00
+date: 2022-01-04 00:00:00
 description: 
 featured_image: '/images/Chains_and_Dots-Chains_I_56x50_2017.jpg'
 ---

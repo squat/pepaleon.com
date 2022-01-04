@@ -1,9 +1,9 @@
 ---
 title: 'Leaves'
 subtitle: ''
-date: 2021-10-25 00:00:00
+date: 2022-01-04 00:00:00
 description: 
-featured_image: '/images/Leaves-Leaves_I_31x32_2018.jpg'
+featured_image: '/images/Leaves-feature.jpg'
 ---
 
 {% if page.description %}

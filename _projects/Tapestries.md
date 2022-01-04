@@ -1,9 +1,9 @@
 ---
 title: 'Tapestries'
 subtitle: ''
-date: 2021-10-25 00:00:00
+date: 2022-01-04 00:00:00
 description: 
-featured_image: '/images/Tapestries-Labyrinth.jpg'
+featured_image: '/images/Tapestries-feature.jpg'
 ---
 
 {% if page.description %}

@@ -1,9 +1,9 @@
 ---
 title: 'Lollipops'
 subtitle: ''
-date: 2021-10-25 00:00:00
+date: 2022-01-04 00:00:00
 description: 
-featured_image: '/images/Lollipops-Lollipop_I_16_2017.jpg'
+featured_image: '/images/Lollipops-feature.jpg'
 ---
 
 {% if page.description %}
