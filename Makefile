@@ -1,6 +1,6 @@
 .PHONY: all clean collections images serve
 
-JEKYLL_VERSION := 3.8
+JEKYLL_VERSION := 3.8.5
 SRC := $(shell find ./_src/* -type f | sed 's/ /\\ /g')
 IMAGES := $(addprefix images/,$(subst /,-,$(subst ./_src/,,$(shell find ./_src/* -mindepth 1 -type f -name '*.jpg' | sed 's/ /_/g'))))
 COLLECTIONS := $(addprefix _projects/,$(subst ./_src/,,$(addsuffix .md,$(shell find ./_src/* -type d | sed 's/ /_/g'))))
@@ -17,9 +17,9 @@ $(COLLECTIONS): _src/collection.md $(IMAGES)
 	@sed -i 's/SUB//g' $@
 	@sed -i 's/DATE/$(shell date '+%Y-%m-%d')/g' $@
 	@sed -i "s/DESCRIPTION/$$(cat $(subst _, ,$(basename $(@F)))/description.txt 2>/dev/null || true)/g" $@
-	@sed -i 's|FEATURE|/$(shell find images/$(basename $(@F))*.jpg | head -n1 )|g' $@
+	@sed -i 's|FEATURE|/$(shell if [ -f images/$(basename $(@F))-feature.jpg ]; then echo images/$(basename $(@F))-feature.jpg; else find images/$(basename $(@F))*.jpg | head -n1; fi )|g' $@
 	@imgs=; \
-	for i in $(shell find images/$(basename $(@F))*.jpg); do \
+	for i in $(shell find images/$(basename $(@F))*.jpg | grep -v "$(basename $(@F))-feature\.jpg"); do \
 		description=$$(echo $$i | tr "_" " " | sed 's|.*-\(.*\).jpg|\1|'); \
 		imgs="$$imgs<img src="'"'/$$i'"'" alt="'"'$$description'"'">"; \
 	done; \
