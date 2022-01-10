@@ -1,7 +1,7 @@
 ---
 title: 'Syria'
 subtitle: ''
-date: 2022-01-04 00:00:00
+date: 2022-01-10 00:00:00
 description: 
 featured_image: '/images/Syria-Syria_I_34x48_2010.jpg'
 ---
